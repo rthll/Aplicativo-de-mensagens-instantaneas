@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .minha-mensagem {
+    background-color: #007bff; /* Cor de fundo para suas mensagens */
+    color: white; /* Cor do texto para suas mensagens */
+    padding: 8px; /* Espaçamento interno */
+    margin: 5px 0; /* Espaçamento externo */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  
+  #chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  #message-container {
+    height: 300px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  #message-input {
+    width: calc(100% - 80px);
+    padding: 8px;
+  }
+  
+  #send-message {
+    padding: 8px;
+  }
+  
